@@ -17,11 +17,11 @@ const translations = {
     skill5: "Base de données (MySQL)",
     projectsTitle: "Mes Projets",
     project1Title: "Projet 1",
-    project1Text: "Un site vitrine responsive pour une entreprise locale.",
+    project1Text: "Création d’un chatbot appelé Hubble, qui répond aux questions sur l’astronomie côté back-end, avec une logique conditionnelle en JavaScript (projet de formation).",
     project2Title: "Projet 2",
-    project2Text: "Application web avec React et API externe.",
+    project2Text: "Création d’une application web de météo côté back-end, avec gestion de la traduction du site en français (projet de formation).",
     project3Title: "Projet 3",
-    project3Text: "Dashboard interactif en JavaScript.",
+    project3Text: "Création de DAG et utilisation de REDCap (stage).",
     contactTitle: "Contact",
     contactText: "Tu veux collaborer avec moi ? N’hésite pas à me contacter :",
     formName: "Nom",
@@ -48,11 +48,11 @@ const translations = {
     skill5: "Database (MySQL, MongoDB)",
     projectsTitle: "I miei Progetti",
     project1Title: "Progetto 1",
-    project1Text: "Création d'un chatbot qui s'appelle Hubble et qui reponds aux questions sur l'astronomie coté back end avec une logique conditionnelle JavaScript (projet formatif).",
+    project1Text: "Creazione di un chatbot chiamato Hubble, che risponde alle domande sull’astronomia lato back-end, con una logica condizionale in JavaScript (progetto formativo).",
     project2Title: "Progetto 2",
-    project2Text: "Création d'une application web de metéo coté back end avec gestion de traduction du siteb en français (projet formatif).",
+    project2Text: "Creazione di un’applicazione web di meteo lato back-end, con la gestione della traduzione del sito in francese (progetto formativo).",
     project3Title: "Progetto 3",
-    project3Text: "Création des DAG et utilisation de REDCap(Stage).",
+    project3Text: "Creazione di DAG e utilizzo di REDCap (tirocinio).",
     contactTitle: "Contatto",
     contactText: "Vuoi collaborare con me? Non esitare a contattarmi:",
     formName: "Nome",
@@ -100,7 +100,7 @@ document.getElementById("language-switcher").addEventListener("change", function
 });
 
 // Définir la langue par défaut (FR)
-setLanguage("fr");
+setLanguage("it");
 
 // Gestion formulaire
 document.querySelector("form").addEventListener("submit", function(e) {
