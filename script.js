@@ -44,7 +44,7 @@ const translations = {
     skill1: "HTML5 / CSS3",
     skill2: "JavaScript (ES6+)",
     skill3: "React / Vue.js",
-    skill4: "Node.js",
+    skill4: "Bootstrap",
     skill5: "Database (MySQL, MongoDB)",
     projectsTitle: "I miei Progetti",
     project1Title: "Progetto 1",
